@@ -6,7 +6,7 @@
     max-width: 1152px;
     max-height: 500px;
     width: 80%;
-    height: 50%;
+    height: 60%;
 }
 .efect {
     position: relative;
@@ -58,4 +58,10 @@
     flex-direction: column;
     align-items: flex-start;
     padding-left: 1rem;
+}
+.stats :nth-child(1) {
+    font-size: 1.5rem;
+}
+.stats :nth-child(2) {
+    font-size: 0.8rem;
 }
